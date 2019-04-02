@@ -1,0 +1,16 @@
+.fotoContainer{
+	width:75%;
+	margin-top: 200px;
+	text-align: center;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px
+
+}
+.mediaImg{
+	text-align: center;
+	margin-bottom: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
