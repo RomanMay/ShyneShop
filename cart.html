@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Main</title>
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body class="body">
+	<div class="menu">
+
+		<div class="menu__icon">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="logo"><a href="index.html">SHYNE TEAM</a></div>
+		<div class="card"><a href="cart.html">CART</a></div>
+
+
+		<div class="menu__links">
+			<a class="menu__links-item" href="shop.html">SHOP</a>
+			<a class="menu__links-item" href="media.html">MEDIA</a>
+			<a class="menu__links-item" href="contact.html">CONTACT</a>
+		</div>
+
+	</div>
+
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th width="20%">picture</th>
+				<th>item</th>
+				<th>quantity</th>
+				<th>size</th>
+				<th>price</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td><img src="img/img.jpg" alt="" class="img"></td>
+				<td>
+					<p>shyne tactical vest</p>
+				</td>
+				<td><select name="quantity" id="quantity">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select></td>
+				<td><select name="size" id="size">
+						<option value="1">XS</option>
+						<option value="2">S</option>
+						<option value="3">M</option>
+						<option value="4">L</option>
+						<option value="5">XL</option>
+						<option value="6">XXL</option>
+
+					</select></td>
+				<td>100$</td>
+			</tr>
+
+		</tbody>
+
+
+	</table>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
+	<script src="javascripts/menu.js"></script>
+</body>
+
+</html>
