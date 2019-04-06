@@ -1,0 +1,48 @@
+.contactContent{
+	width: 75%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.feedbackForm{
+	margin-top: 200px;
+}
+input, textarea{
+	border: 1px solid #000;
+	outline: 0;
+	color: #000;
+}
+
+.text{
+	font-family: "DINPro-Regular";
+	font-size: 2em;
+	margin-top: 200px;
+}
+.contactInput{
+	font-family: "DINPro-Regular";
+	font-size: 1.2em;
+	width: 15%;
+	height: 35px;
+	margin: 10px 10px 10px 0;
+}
+.textarea{
+	font-family: "DINPro-Regular";
+	font-size: 1.2em;
+	width: 50%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.form_button{
+	width: 200px;
+    height: 45px;
+    background-color: #000;
+    cursor: pointer;
+	border: none;
+	outline:0;
+}
+.buttonText{
+	font-family: "DINPro-Regular";
+	font-size: 1.2em;
+	color: #fff;
+	line-height: 0.6;
+}
